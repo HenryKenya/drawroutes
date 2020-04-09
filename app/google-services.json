@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "475800675816",
+    "firebase_url": "https://draw-route-42241.firebaseio.com",
+    "project_id": "draw-route-42241",
+    "storage_bucket": "draw-route-42241.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475800675816:android:a67995118d48ff3a5bb05d",
+        "android_client_info": {
+          "package_name": "com.draw.route"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475800675816-ujlnev2quas4thi9df4gqncujt9ondn6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQ7XgwSbCSrCiT_rA6Bh7YLBgReODpN1w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475800675816-ujlnev2quas4thi9df4gqncujt9ondn6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
