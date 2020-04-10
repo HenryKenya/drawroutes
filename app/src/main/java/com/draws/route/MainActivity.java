@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     int AUTOCOMPLETE_REQUEST_CODE = 1;
     EditText sourceAddress, destinationAddress;
     Button btnRoute;
-    List<Place.Field> fields = Arrays.asList(Place.Field.ID, Place.Field.NAME);
+    List<Place.Field> fields = Arrays.asList(Place.Field.ID, Place.Field.NAME, Place.Field.ADDRESS, Place.Field.PHONE_NUMBER);
 
 
 
@@ -88,12 +88,12 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode == 100 && resultCode == RESULT_OK) {
             // retrive the data by using getPlace() method.
             Place place = Autocomplete.getPlaceFromIntent(data);
-            Log.e("TAG", "Place: " + place.getName() + ", " + place.getId() + ", " + place.getAddress());
-            sourceAddress.setText(place.getAddress().toString());
+            Log.e("Tag", "Place: " + place.getAddress() + place.getPhoneNumber());
+            sourceAddress.setText(place.getAddress().toString());  // TODO - CHANGE THIS TO getAddress()
         } else if (requestCode == 101 && resultCode == RESULT_OK) {
             // retrive the data by using getPlace() method.
             Place place = Autocomplete.getPlaceFromIntent(data);
-            Log.e("TAG", "Place: " + place.getName() + ", " + place.getId() + ", " + place.getAddress());
+            Log.e("Tag", "Place: " + place.getAddress() + place.getPhoneNumber());
             destinationAddress.setText(place.getAddress().toString());
         } else if (resultCode == AutocompleteActivity.RESULT_ERROR) {
             Status status = Autocomplete.getStatusFromIntent(data);
