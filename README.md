@@ -8,3 +8,9 @@ The autocomplete service in the Places SDK for Android returns place predictions
 <img src="https://github.com/remymumoh/drawroutes/blob/master/screenshots/1.PNG" width="280"/>
 <img src="https://github.com/remymumoh/drawroutes/blob/master/screenshots/2.PNG" width="280"/>
 <img src="https://github.com/remymumoh/drawroutes/blob/master/screenshots/3.PNG" width="280"/>
+
+
+### Configuration
+* Get firebase json file from [Firebase](https://firebase.google.com/?hl=id)
+* Google Maps Key and add to string.xml [Google Cloud Console](https://console.cloud.google.com/google/maps-apis/overview?hl=ru)
+* <string name="api_key">PUT THE KEY HERE</string>
