@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">GoogleRoute</string>
-    <string name="api_key">AIzaSyDKadCoKQ12eMDAYQcIJQIUjHPywv1X9TQ</string>
+    <string name="api_key">GET_GOOGLE_MAPS_KEY</string>
 </resources>
