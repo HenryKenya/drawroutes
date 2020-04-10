@@ -13,4 +13,4 @@ The autocomplete service in the Places SDK for Android returns place predictions
 ### Configuration
 * Get firebase json file from [Firebase](https://firebase.google.com/?hl=id)
 * Google Maps Key and add to string.xml [Google Cloud Console](https://console.cloud.google.com/google/maps-apis/overview?hl=ru)
-* <string name="api_key">PUT THE KEY HERE</string>
+*  Add the key  **<string name="api_key">PUT THE KEY HERE</string>**
